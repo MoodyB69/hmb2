@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#section-one h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  color: black;
+  display: block;
+  max-width: 50%;
+  padding: 2em;
+}
+.highlight {
+  color: orange;
+}
+#section-one .about-p {
+  max-width: 19em;
+  padding: 1em;
+  font-size: 20px;
+  float: left;
+}
+#section-one {
+  overflow: hidden;
+}
+#section-one img {
+  display: inline-block;
+  max-width: 50%;
+  height: 17em;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#section-two {
+  background: url("test-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+#section-two h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-size: 2em;
+  padding: 1em;
+  display: block;
+  margin: auto;
+}
+#section-two .feedback1,
+#section-two .feedback {
+  background: orange;
+  margin: 30px;
+  padding: 2em;
+  height: 11em;
+  opacity: 0.8;
+}
+
+#section-two .feedback1 img {
+  width: 7rem;
+  border-radius: 3.5rem;
+  margin-right: 2em;
+  padding-bottom: 1em;
+  float: left;
+}
+#section-two .feedbackp1 {
+  display: inline-block;
+  text-align: left;
+  width: 25em;
+}
+#section-two .feedback img {
+  width: 7rem;
+  border-radius: 3.5rem;
+  margin-right: 2em;
+  padding-bottom: 1em;
+  display: inline-block;
+}
+
+#section-two .feedbackp2 {
+  display: inline-block;
+  text-align: left;
+  width: 25em;
+  margin-bottom: 1rem;
+}
+@media (max-width: 450px) {
+  #section-one h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: black;
+    width: 45rem;
+  }
+  #section-two {
+    background: url("test-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+  }
+  #section-two .feedback1,
+  #section-two .feedback {
+    background: orange;
+
+    padding: 2rem;
+    height: 20rem;
+    opacity: 0.8;
+    display: block;
+    margin: auto;
+    margin: 2rem 2rem;
+  }
+
+  #section-two .feedback1 img {
+    display: block;
+    margin: auto;
+    width: 7rem;
+    border-radius: 3.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  #section-two .feedbackp1 {
+    display: inline-block;
+    width: 15rem;
+    color: whitesmoke;
+    margin: 0;
+  }
+  #section-two .feedback img {
+    width: 7rem;
+    border-radius: 3.5rem;
+    margin-right: 2em;
+    padding-bottom: 1em;
+    display: inline-block;
+  }
+
+  #section-two .feedbackp2 {
+    display: inline-block;
+    width: 15rem;
+    color: whitesmoke;
+    margin: 0;
+    padding-bottom: 2rem;
+  }
+}
